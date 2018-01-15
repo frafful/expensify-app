@@ -1,0 +1,9 @@
+# ignora node_modules
+/node_modules
+
+# ignora css
+style.css
+
+/public/scripts
+
+/.vscode
