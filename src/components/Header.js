@@ -11,7 +11,6 @@ const Header = () => (
         <li><NavLink exact to="/help" activeClassName="is-active">Help</NavLink></li>
       </ul>
     </nav>
-    
   </header>
 );
 
