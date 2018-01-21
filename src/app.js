@@ -27,9 +27,9 @@ const store = configureStore();
 //   console.log(getVisibleExpenses(state.expenses, state.filters));
 // });
 
-store.dispatch(addExpense({ description: 'Water bill', amount: 7000, createdAt: 1518739200000 }));
-store.dispatch(addExpense({ description: 'Gas bill', amount: 2000, createdAt: 1514678400000 }));
-store.dispatch(addExpense({ description: 'Rent', amount: 109500, createdAt: 1515974400000 }));
+// store.dispatch(addExpense({ id: 'a',  description: 'Water bill', amount: 7000, createdAt: 1518739200000 }));
+// store.dispatch(addExpense({ id: 'b',  description: 'Gas bill', amount: 2000, createdAt: 1514678400000 }));
+// store.dispatch(addExpense({ id: 'c',  description: 'Rent', amount: 109500, createdAt: 1515974400000 }));
 
 const jsx = (
   <Provider store={store}>
