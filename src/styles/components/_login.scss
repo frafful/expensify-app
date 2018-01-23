@@ -1,0 +1,30 @@
+.login-page {
+  position: relative;
+  height: 100vh;
+
+  background:  linear-gradient(
+    rgba(0, 0, 0, .5),
+    rgba(0, 0, 0, .5)
+  ),
+  url('https://images.unsplash.com/photo-1507050460691-db9ce53a4539?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.login__box {
+  background-color: white;
+  opacity: .9;
+  text-align: center;
+  width: 250px;
+
+  border-radius: 3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
